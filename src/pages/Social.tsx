@@ -10,6 +10,7 @@ import { userDetails } from "../api/services/user";
 const Social = () => {
     const { id } = useParams();
     const userId = String(id);
+    console.log(userId)
   const { data: friends, isLoading, error } = userRelationships(userId, "friends");
   const { data: followers, isLoading: followersLoading, error: followersError } = userRelationships(userId, "followers");
   const { data: following, isLoading: followingLoading, error: followingError } = userRelationships(userId, "following");
