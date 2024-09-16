@@ -54,7 +54,7 @@ export default function Register() {
         </div>
         <div className="sm:mx-auto sm:w-full sm:max-w-md mb-4">
           <a href="/">
-            <img alt="Your Company" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" className="mx-auto h-10 w-auto" />
+            <img alt="Your Company" src="https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f38f.svg" className="mx-auto h-10 w-auto" />
           </a>
         </div>
         <div className="mx-auto max-w-2xl text-center">

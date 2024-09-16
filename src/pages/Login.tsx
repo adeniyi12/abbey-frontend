@@ -36,7 +36,7 @@ export default function Login() {
       <div className="flex min-h-full flex-1 flex-col justify-center py-12 sm:px-6 lg:px-8 bg-gray-50 text-left">
         <div className="sm:mx-auto sm:w-full sm:max-w-md">
           <a href="/">
-            <img alt="Your Company" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" className="mx-auto h-10 w-auto" />
+            <img alt="Your Company" src="https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f38f.svg" className="mx-auto h-10 w-auto" />
             <h2 className="mt-6 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Sign in to your account</h2>
           </a>
         </div>
