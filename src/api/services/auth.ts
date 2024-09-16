@@ -42,3 +42,24 @@ export const userLogin = () => {
 
   return { mutate, error };
 };
+
+export const useGoogleLogin = () => {
+    const navigate = useNavigate();
+    const { setAuth } = useAuth();
+  
+    const { mutate, error } = useMutation({
+      mutationFn: (userData: any) => publicApi.post("/google-login", userData),
+      onSuccess: (result) => {
+        const accessToken = result?.data?.token;
+        const user = result?.data?.data;
+        setAuth({ accessToken, user });
+        toast.success(result?.data?.message);
+        navigate("/feed");
+      },
+      onError: (error: any) => {
+        toast.error(error?.response?.data?.message);
+      },
+    });
+  
+    return { mutate, error };
+  };

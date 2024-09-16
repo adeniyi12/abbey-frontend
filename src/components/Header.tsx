@@ -19,7 +19,7 @@ export default function Header() {
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1 items-center">
           <a href="/" className="-m-1.5 p-1.5 flex items-center">
-            <img alt="Your Company Logo" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" className="h-8 w-auto mr-2" />
+            <img alt="Your Company Logo" src="https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f38f.svg" className="h-8 w-auto mr-2" />
             <span className="text-lg font-semibold text-gray-900">Abbey Socials</span>
           </a>
         </div>
@@ -63,7 +63,7 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img alt="Your Company" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" className="h-8 w-auto" />
+              <img alt="Your Company" src="https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f38f.svg" className="h-8 w-auto" />
             </a>
             <button type="button" onClick={() => setMobileMenuOpen(false)} className="-m-2.5 rounded-md p-2.5 text-gray-700">
               <span className="sr-only">Close menu</span>
